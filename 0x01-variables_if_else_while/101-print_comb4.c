@@ -1,33 +1,36 @@
-include <stdio.h>
-
+#include <stdio.h>
+#include <stdlib.h>
 /**
- * main - prints all possible different combinations of three digits
- * Return: Always 0 (Success)
- */
+* main - Entry pointt
+* Return: Always 0 (Success)
+*/
 int main(void)
 {
-	int n, m, l;
+	int a;
+	int b;
+	int c;
 
-	for (n = 48; n < 58; n++)
+	for (a = '0'; a <= '9'; a++)
 	{
-		for (m = 49; m < 58; m++)
+		for (b = '1'; b <= '9'; b++)
 		{
-			for (l = 50; l < 58; l++)
-			{
-				if (l > m && m > n)
+			for (c = '2'; c <= '9'; c++)
+
+				if (a != b && a != c && b != c && a < b && b < c)
+
 				{
-					putchar(n);
-					putchar(m);
-					putchar(l);
-					if (n != 55 || m != 56)
+					putchar(a);
+					putchar(b);
+					putchar(c);
+					if (a != '7')
 					{
 						putchar(',');
 						putchar(' ');
 					}
 				}
-			}
 		}
 	}
 	putchar('\n');
+
 	return (0);
 }
