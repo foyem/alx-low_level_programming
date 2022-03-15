@@ -3,7 +3,7 @@
 /**
  * File: 0-putchar.c
  * Auth: Adeyemi Anifowose
- * Description: main is a function
+ * Description: main is used as a function
  * Return: Always 0.
  */
 int main(void)
