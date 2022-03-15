@@ -6,7 +6,7 @@
  * Description: main is used as a function
  * Return: Always 0.
  */
-int main(void) // this specifies there are no arguments taken by main
+int main(void) /*this specifies there are no arguments taken by main*/
 {
 	_putchar('_');
 	_putchar('p');
