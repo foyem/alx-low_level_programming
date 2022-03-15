@@ -6,9 +6,11 @@
  * Description: main is used as a function
  * Return: Always 0.
  */
+
+/* function main takes voic or no arguments */
 int main(void)
 {
-	/*this specifies there are no arguments taken by main*/
+	/*this spell the _putchar*/
 
 	_putchar('_');
 	_putchar('p');
