@@ -1,13 +1,14 @@
 #include "main.h"
 
 /**
- * File: 0-putchar.c
- * Auth: Adeyemi Anifowose
- * Description: main is used as a function
- * Return: Always 0.
+ * main- Short description, single line
+ * @parameterx: Description of parameter x
+(* a blank line
+ * Description: I used main to display _putchar
+(* section header: Section description)*
+ * Return: Always return 0.
  */
 
-/* function main takes voic or no arguments */
 int main(void)
 {
 	/*this spell the _putchar*/
