@@ -2,7 +2,7 @@
   
 /*
  * File: 2-print_alphabet_x10.c
- * Auth: Brennan D Baraban
+ * Auth: Adeyemi Anifowose
  */
 
 #include "holberton.h"
