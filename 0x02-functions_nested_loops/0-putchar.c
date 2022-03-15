@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main- Short description, single line
+ * main- This function display the words given. 
  * @parameterx: Description of parameter x
 (* a blank line
  * Description: I used main to display _putchar
