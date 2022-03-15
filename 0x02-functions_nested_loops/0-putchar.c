@@ -1,13 +1,8 @@
-/*
- * File: 0-putchar.c
- * Auth: Adeyemi Anifowose
- *
- */
-
 #include <stdio.h>
 
 /**
- * main - Prints "Holberton" followed by a new line.
+ * File: 0-putchar.c
+ * Auth: Adeyemi Anifowose
  *
  * Return: Always 0.
  */
