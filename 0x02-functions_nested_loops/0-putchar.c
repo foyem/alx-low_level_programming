@@ -3,10 +3,10 @@
 /**
  * File: 0-putchar.c
  * Auth: Adeyemi Anifowose
- *
+ * Description: main is a function
  * Return: Always 0.
  */
-int main(void)      /*this is main*/
+int main(void)      
 {
 	_putchar('_');
 	_putchar('p');
