@@ -2,7 +2,6 @@
 
 /**
  * main- This function display the words given.
- * @parameterx: Description of parameter
 (* a blank line
  * Description: I used main to display _putchar
 (* section header: Section description)*
