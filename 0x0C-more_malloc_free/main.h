@@ -14,5 +14,4 @@ int _atoi(const char *s);
 void print_int(unsigned long int n);
 
 #endif
-© 2022 GitHub, Inc.
-Terms
+
