@@ -1,7 +1,8 @@
-CC=gcc
-SRC=main.c holberton.c
-OBJ=$(SRC:%.c=%.o)
-NAME=holberton
-
+CC = gcc
+SRC = holberton.c main.c
+OBJ = $(SRC:%.c=%.o)
+NAME = holberton
+%.o: %.c m.h
+	$(CC) -c -o $@ $<
 all: $(OBJ)
 	$(CC) $(OBJ) -o $(NAME)
